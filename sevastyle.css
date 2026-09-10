@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .project-detail-page {
     min-height: 100vh;
     padding: 45px 0 100px;
@@ -328,3 +329,335 @@
     background: #087545;
     transform: translateY(-3px);
 }
+=======
+.project-detail-page {
+    min-height: 100vh;
+    padding: 45px 0 100px;
+    background: #f8faf9;
+}
+
+.project-detail-page .container{
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
+
+.project-back {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 70px;
+    color: #61716a;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.project-back:hover {
+    color: #0c8f55;
+    transform: translateX(-4px);
+}
+
+.project-detail-hero {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #dfe9e3;
+}
+
+.project-detail-heading {
+    max-width: 780px;
+}
+
+.project-detail-heading h1 {
+    margin: 0 0 25px;
+    color: #12352a;
+    font-size: clamp(55px, 8vw, 100px);
+    line-height: 0.95;
+    letter-spacing: -4px;
+}
+
+.project-detail-lead {
+    max-width: 560px;
+    margin: 0;
+    color: #61716a;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.project-detail-meta {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    min-width: 130px;
+}
+
+.project-detail-meta span {
+    color: #0c8f55;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.project-detail-meta p {
+    margin: 0;
+    color: #829089;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+
+.project-detail-image {
+    margin-top: 45px;
+}
+
+.project-detail-image {
+    margin-top: 45px;
+}
+
+.project-image-scroll {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+}
+
+.project-image-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.project-image-scroll::-webkit-scrollbar-thumb {
+    background: #b9d8c8;
+    border-radius: 10px;
+}
+
+.project-image-card {
+    flex: 0 0 78%;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 28px;
+    scroll-snap-align: start;
+    background: #e9f0ec;
+}
+
+.project-image-card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    transition: transform 0.6s ease;
+}
+
+.project-image-card:hover img {
+    transform: scale(1.03);
+}
+
+.project-information {
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr;
+    gap: 80px;
+    padding: 110px 0;
+    border-bottom: 1px solid #dfe9e3;
+}
+
+.project-info-label span {
+    color: #0c8f55;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.project-info-content {
+    max-width: 760px;
+}
+
+.project-info-content p {
+    margin-bottom: 25px;
+    color: #61716a;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.project-info-content .project-large-text {
+    margin-bottom: 35px;
+    color: #29483b;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.project-purpose {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    padding: 110px 0;
+}
+
+.project-purpose h2 {
+    margin: 0;
+    color: #12352a;
+    font-size: clamp(36px, 5vw, 58px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.project-purpose h2 span {
+    display: block;
+    color: #718079;
+}
+
+.purpose-text {
+    max-width: 560px;
+}
+
+.purpose-text p {
+    margin-bottom: 25px;
+    color: #61716a;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.project-impact-preview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 55px;
+    background: #12352a;
+    border-radius: 25px;
+}
+
+.impact-preview-number {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: clamp(42px, 6vw, 70px);
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.project-impact-preview p {
+    max-width: 420px;
+    margin: 0;
+    color: #c9d8d1;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.impact-preview-note {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.project-detail-cta {
+    padding: 130px 0 50px;
+    text-align: center;
+}
+
+.project-detail-cta h2 {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    color: #12352a;
+    font-size: clamp(40px, 5vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.project-detail-cta h2 span {
+    display: block;
+    color: #0c8f55;
+}
+
+.project-detail-cta .hero-primary {
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .project-detail-page {
+        padding-top: 30px;
+    }
+
+    .project-back {
+        margin-bottom: 50px;
+    }
+
+    .project-detail-hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .project-detail-heading h1 {
+        font-size: clamp(48px, 14vw, 70px);
+        letter-spacing: -3px;
+    }
+
+    .project-detail-lead {
+        font-size: 16px;
+    }
+
+    .project-detail-image {
+        margin-top: 30px;
+    }
+
+    .project-image-placeholder {
+        min-height: 350px;
+    }
+
+    .project-information,
+    .project-purpose,
+    .project-impact-preview {
+        grid-template-columns: 1fr;
+    }
+
+    .project-information,
+    .project-purpose {
+        gap: 40px;
+        padding: 80px 0;
+    }
+
+    .project-info-content .project-large-text {
+        font-size: 21px;
+    }
+
+    .project-impact-preview {
+        padding: 35px;
+    }
+
+    .impact-preview-note {
+        justify-content: flex-start;
+    }
+
+    .project-detail-cta {
+        padding-top: 90px;
+    }
+
+}
+
+.project-detail-cta .hero-primary {
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 23px;
+    background: #0c8f55;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.project-detail-cta .hero-primary:hover {
+    background: #087545;
+    transform: translateY(-3px);
+}
+>>>>>>> 139e045 (Improve arrow visibility and finalize styling)
